@@ -89,6 +89,27 @@ for(let i = 0; i < test.length; i++)
     }
 }
 
+//8
+
+document.querySelector('.allergy-warning').style.display='flex'
+
+document.querySelector('.allergy-warning').style.flexDirection='column'
+
+document.querySelector('.allergy-warning').style.alignItems='center'
+
+document.querySelector('.allergies').style.alignItems='center'
+
+document.querySelector('.allergies').style.alignContent='center'
+
+document.querySelector('.allergies').style.width='50%'
+
+document.querySelectorAll('.allergy-info').forEach(element=> element.style.width = '100%'  )
+
+
+
+
+
+
 
 
 
