@@ -69,6 +69,14 @@ else
     document.querySelectorAll('.food-category').forEach(element => element.style.marginRight='10px')  
 }
 
+//6
+let warn = document.getElementById('warning');
+console.log(warn);
+warn.style.fontSize='24px';
+warn.style.fontFamily='Time new roman'
+
+//7
+
 
 
 
