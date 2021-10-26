@@ -77,6 +77,18 @@ warn.style.fontFamily='Time new roman'
 
 //7
 
+let test=document.querySelectorAll('.allergy-info');
+
+for(let i = 0; i < test.length; i++)
+{
+    //console.log(test[i]);
+    if(i%2 != 0)
+    {
+        //console.log(test[i]);
+         test[i].style.backgroundColor = 'skyBlue'
+    }
+}
+
 
 
 
